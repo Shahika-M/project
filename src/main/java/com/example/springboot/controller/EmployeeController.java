@@ -36,6 +36,8 @@ public class EmployeeController {
 	public List<Employee1> getAllEmployees(){
 		System.out.println("changes for github");
 		System.out.print("hello world");
+		System.out.print("changes for checking jenkins");
+		
 		return employeeRepository.findAll();
 	}	
 	
